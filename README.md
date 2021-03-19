@@ -51,7 +51,7 @@ Adding an explicit `redraw()` does nothing with the component.
 
 ## How to Run
 
-## Configure for Local Package
+### Configure for Local Package
 
 open up `my_app/package.json` and modify the absolute path of `shared_ui`
 
@@ -59,7 +59,7 @@ open up `my_app/package.json` and modify the absolute path of `shared_ui`
     "shared_ui": "/Users/andrewbrown/Desktop/mithril_debug/shared_ui"
 ```
 
-## Install Packages
+### Install Packages
 
 ```
 cd shared_ui
@@ -69,7 +69,7 @@ cd my_app
 npm install
 ```
 
-## Run Web Application
+### Run Web Application
 
 This will start webpack dev server on port `8080`
 
