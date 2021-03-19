@@ -1,0 +1,29 @@
+{
+  "name": "my_app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "mithril": "^2.0.4"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.12.16",
+    "@babel/plugin-transform-runtime": "^7.12.15",
+    "@babel/preset-env": "^7.12.16",
+    "@babel/runtime": "^7.12.13",
+    "babel-loader": "^8.2.2",
+    "html-webpack-plugin": "^5.3.1",
+    "webpack": "^5.26.3",
+    "webpack-cli": "^4.5.0",
+    "webpack-dev-server": "^3.11.2",
+    "shared_ui": "/Users/andrewbrown/Desktop/mithril_debug/shared_ui"
+  },
+  "scripts": {
+    "build": "webpack --mode production",
+    "start": "webpack serve --mode development",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
