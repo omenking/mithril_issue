@@ -45,7 +45,7 @@ http://localhost:8080/world
 
 ### 2. Rendering
 
-When a `m.requet` within the `shared_ui/notifications.js` the success function is support to trigger a redraw but it does not.
+When using `m.request` within the `shared_ui/notifications.js` the success function is suppose to trigger a redraw but it does not.
 
 Adding an explicit `redraw()` does nothing with the component.
 
