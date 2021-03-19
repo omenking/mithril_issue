@@ -13,7 +13,10 @@ export default class SharedNotifications {
     this.fetch = this.fetch.bind(this);
     this.success = this.success.bind(this);
     this.view = this.view.bind(this);
+    this.oninit = this.oninit.bind(this);
     this.render_items = this.render_items.bind(this);
+  }
+  oninit(){
     this.fetch()
   }
   fetch(){

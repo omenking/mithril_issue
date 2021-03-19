@@ -15,14 +15,17 @@ class AppNotifications {
     this.fetch = this.fetch.bind(this);
     this.success = this.success.bind(this);
     this.view = this.view.bind(this);
+    this.oninit = this.oninit.bind(this);
     this.render_items = this.render_items.bind(this);
-    this.fetch()
   }
   fetch(){
     m.request({
       method: 'GET',
       url: '/api/notifications'
     }).then(this.success)
+  }
+  oninit(){
+    this.fetch()
   }
   success(data){
     console.log('data',data)
